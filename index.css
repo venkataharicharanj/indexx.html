@@ -1,0 +1,166 @@
+html,body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* Header Section */
+.header-1{
+    /* position: fixed; */
+    background: aliceblue;
+    padding-right: 100px ;
+    padding-left: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    font-size:medium;
+}
+
+.header-left li{
+    display: inline;
+    padding-left: 25px;
+    
+}
+
+.header-left li .header-link{
+    text-decoration: none;
+    color: black;
+}
+.header-left li .header-link:hover{
+    color: rgb(97,57,159);
+    font-weight: 600;
+}
+.header-right li {
+    display: inline;
+    padding-left: 5px;
+}
+
+.header-right li .input{
+    border: none;
+    background: rgb(242,242,242);
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.header-right li .but-1{
+    background-color:rgb(97,57,159);
+    color:aliceblue;
+    font-weight: bolder;
+    border: none;
+    width: 140px;
+    height:40px;
+    border-radius: 50px;
+}
+
+
+.header-right li .but-2{
+    color:rgb(97,57,159);
+    background-color:aliceblue;
+    font-weight: bolder;
+    border: 1px solid rgb(97,57,159);
+    padding:0 20px;
+    height:40px;
+    border-radius: 50px;
+}
+
+.header-right li button:hover{
+    background: rgb(57, 29, 100);
+    color: antiquewhite;
+}
+
+/* Section-1 */
+
+.section-2{
+    background: rgb(57, 29, 100);
+    position: absolute;
+    border-radius: 20px;
+    width: 400px;
+    height:300px;
+    transform: rotate(85deg);
+    overflow: hidden;
+    
+}
+
+.section-1{
+    margin:10px 100px;
+    height: 500px;
+    border-radius: 20px;
+    background: rgb(242,236,253);
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 .section-right{
+    background: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 600px;
+    height: 400px;
+    border-radius: 25px;
+    padding: 50px 30px 50px 50px;
+}
+
+.section-1 .section-right .section-1-head, .section-1-para1{
+    color: rgb(57, 29, 100);
+    font-size: 30px;
+}
+
+.section-1 .section-right .search-box .form{
+    border-radius: 60px;
+    border: 1px solid rgb(57, 29, 100);
+    width: 250px;
+    height: 50px;
+}
+
+.section-1 .section-right .search-box .form[type="tel"]{
+    font-weight: bold;
+    padding: 5px;
+}
+
+.section-1 .section-right .search-box .section-1-button
+{
+    background-color:rgb(97,57,159);
+    color:aliceblue;
+    font-weight: bolder;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+}
+/* .section-1 .section-right .section-1-para2{
+    font-size: 12px;
+} */
+
+.section-1 .section-left{
+    padding-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-1{
+    display: inline;
+    padding: 50px;
+    font-size: 22px;
+    font-weight:700;    
+    color: rgb(163, 135, 204);
+    cursor: pointer;
+}
+.bar-line ul{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section2{
+    display:flex;
+    margin: 100px 300px 100px 300px;
+    padding: 50px;
+    background: rgba(236, 227, 249,0.5);
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.section2 .section-2-left .imgsrc{
+    width: 500px;
+}
